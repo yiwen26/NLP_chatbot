@@ -1,8 +1,8 @@
 # this contains some predefined pair outputs .
 def fixedpair(inp):
-        if inp == "who?":
-            pair = "I am TS3000."
-        elif inp == "who ?" :
+        if inp == "who are you?":
+            pair = "I am your teacher."
+        elif inp == "who are you ?" :
             pair = "I m your little cutie"
         
         return pair
