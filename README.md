@@ -13,23 +13,23 @@ Chatbot framework can be divided into four areas according to two dimensions, re
 
 There are three types of chatbot: QA, Dialogue System, General chatbot. In our project, we combined the QA and general chat into our chatbot.
 
-* QA
+>- QA
 
 This type is based on questions from users. Answers given by the bot are not required to form dialogues. QA does not have to fulfill any business target.    
 There are three methods to train the models.    
 
-- Calculate the similarity of queries from users and questions in dataset. Then map the highest similarity question with the answer.    
+    - Calculate the similarity of queries from users and questions in dataset. Then map the highest similarity question with the answer.    
 
-- Calculate the relevance between queries and answers. Then map the highest relevance answers to the questions. *This is what we used in the project*
+    - Calculate the relevance between queries and answers. Then map the highest relevance answers to the questions. *This is what we used in the project*
 
-- The combination of two above.  
+    - The combination of two above.  
 
-* General Chatbot
+>- General Chatbot
 
 This kind of chatbot is used in open field chat scenario, just as chat between friends without the limitation of topics or contents.    
 General chatbots are usually based on seq2seq architecture, using models to generate answers automatically and optimizing them by combining technologies such as Attention.  
 
-## Motivations
+### Motivations
 
 - Market: People regard insurance as necessity. Insurance market is expanding.
 
@@ -37,7 +37,7 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 
 - Company: Chatbot will free manpower and increase working efficiency.
 
-## :floppy_disk:项目结构
+## repo structure
 
 ```
 │  .gitignore
