@@ -74,7 +74,7 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 |       | main.py
 |       | model.py
 |       | pairlist.py
-|       | train.py
+└─      └─ train.py
 ```
 
 ## Approach
