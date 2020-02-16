@@ -16,7 +16,8 @@ There are three methods to train the models.
 Dialogue system usually focuses on missions. The chatbot needs to interact with users, even in multiple rounds. After recognizing the requirement of users, the chatbot has to finish the business task.   
 Dialogue system contains NLU, DM and NLG.
 #### General Chatbot
-This kind of chatbot is used in open field chat scenario, just as chat between friends without the limitation of topics or contents. This kind of chatbot is mainly used as personal assistant, entertainment and other scenes, typical representatives such as Microsoft ice, apple Siri and so on.  
-It is very difficult to develop this general chatbot. Huge datasets and high quality algorithms are required.  
-General chatbots are usually based on seq2seq architecture, using models to generate answers automatically and optimizing them by combining technologies such as Attention. Currently, Attention and other techniques are introduced to achieve better coding for users. In order to realize the model's ability to understand the user's previous and subsequent input, user history encoding is introduced. This approach is based entirely on data and has the advantage of being flexible and not requiring complex dialogue management. The disadvantage is that the controllability is not strong. The generated answers are often short, and many meaningless answers are returned. Also, a large amount of training data is required.
+This kind of chatbot is used in open field chat scenario, just as chat between friends without the limitation of topics or contents.    
+General chatbots are usually based on seq2seq architecture, using models to generate answers automatically and optimizing them by combining technologies such as Attention.  
+## Motivations
+
 
