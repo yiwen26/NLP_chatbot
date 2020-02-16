@@ -37,37 +37,44 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 
 - Company: Chatbot will free manpower and increase working efficiency.
 
-## repo structure
+## Repo Structure
 
 ```
-│  .gitignore
-│  config.py               #模型配置参数
-│  corpus.pth              #已经过处理的数据集
-│  dataload.py             #dataloader
-│  datapreprocess.py       #数据预处理
-│  LICENSE
-│  main.py               
-│  model.py       
+│  LICENSE   
 │  README.md
-│  requirements.txt
-│  train_eval.py            #训练和验证,测试
-│  
-├─checkpoints              
-│      chatbot_0509_1437   #已经训练好的模型
-│      
-├─clean_chat_corpus
-│      qingyun.tsv         #语料库
-│      
-├─QA_data
-│      QA.db               #知识库
-│      QA_test.py          #使用知识库时调用
-│      stop_words.txt      #停用词
-│      __init__.py
-│      
-└─utils
-        beamsearch.py      #to do 未完工
-        greedysearch.py    #贪婪搜索，用于测试
-        __init__.py
+├─QA system              
+│       ├─data                                  # raw text corpus
+│       │   answers.label.token_idx
+|       |   question.dev.label.token_idx.pool
+|       |   question.test1.label.token_idx.pool
+|       |   question.test2.label.token_idx.pool
+|       |   question.train.token_idx.label
+|       |   vocabulary
+|       ├─model                                 # trained model save to dir
+|       |   demo.model                          # demo_model
+|       | README.md
+|       | main.py                         
+|       | model.py                              # model building
+|       └─ preprocess.py                         # data preprocess      
+├─general chatbot
+│       ├─Data Preprocessing
+|       |   data_preprocess.py
+|       |   format_twitter.txt                   # twitter data after preprocessing
+|       |   formatted_movie_lines.txt            # movie data after preprocessing
+|       ├─data                                   # raw data
+|       |   movie_characters_metadata.txt
+|       |   movie_conversations.txt
+|       |   movie_titles_metadata.txt
+|       |   raw_script_urls.txt
+|       |   twitter_chat.txt
+│       ├─save                                   # trained model save dir
+|       | config.py
+|       | evaluate.py
+|       | load.py
+|       | main.py
+|       | model.py
+|       | pairlist.py
+|       | train.py
 ```
 
 ## Approach
