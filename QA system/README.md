@@ -13,12 +13,11 @@
 ---
 
 ```
-|-data/V1 # data directory -  insurance QA V1 data
-|-model # pre-trained Bi-lstm + attention model
-|-pysrc # python source file directory
-|-- main.py # program entrance, use -h to see arguments
-|-- model.py # nn model class and nn utils functions
-|-- preprocess.py # data preprocessing related functions 
+|-data # data directory -  insurance QA V1 data
+|-model # pre-trained Bi-lstm + attention model 
+|- main.py # program entrance, use -h to see arguments
+|- model.py # nn model class and nn utils functions
+|- preprocess.py # data preprocessing related functions 
 ```
 
 ### Execution Process
