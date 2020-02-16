@@ -1,4 +1,5 @@
-# NLP_chatbot
+# MH6812_Deep_Neural_Networks_for_Natural_Language_Processing
+## Insurance Question & Answer Chatbot
 
 ## Background
 A chatbot is a piece of software that conducts a conversation via auditory or textual methods. Such programs are often designed to convincingly simulate how a human would behave as a conversational partner. Chatbots are typically used in dialog systems for various practical purposes including customer service or information acquisition. Some chatbots use sophisticated natural language processing systems, but many simpler ones scan for keywords within the input, then pull a reply with the most matching keywords, or the most similar wording pattern, from a database.
