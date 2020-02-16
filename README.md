@@ -31,13 +31,16 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 
 ### Motivations
 
-- Market: People regard insurance as necessity. Insurance market is expanding.
+> Market 
+People regard insurance as necessity. Insurance market is expanding.
 
-- Customer: Not every customer or potential customer is assigned with a customer manager. Chatbot will help solve their problem.
+> Customer 
+Not every customer or potential customer is assigned with a customer manager. Chatbot will help solve their problem.
 
-- Company: Chatbot will free manpower and increase working efficiency.
+> Company 
+Chatbot will free manpower and increase working efficiency.
 
-## Repo Structure
+### Repo Structure
 
 ```
 │  LICENSE   
@@ -77,15 +80,22 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 └─      └─ train.py
 ```
 
-## Approach
+### Approach
 
-#### QA System
+> QA System
 
 - BiLSTM + attention
 
-
-#### General Chatbot
+> General Chatbot
 - Seq2Seq
-- Encoder: BiRNN
-- Decoder: attention + biRNN
+- Encoder: BiGRU
+- Decoder: BiRNN
+- Global attention (score function: general)
+
+### Demo
+
+![chatbotdemo1](https://github.com/yiwen26/NLP_chatbot/blob/master/graph/chatbot%20demo1.png)
+![chatbotdemo2](https://github.com/yiwen26/NLP_chatbot/blob/master/graph/chatbot%20demo2.png)
+![chatbotdemo3](https://github.com/yiwen26/NLP_chatbot/blob/master/graph/chatbot%20demo3.png)
+![chatbotdemo4](https://github.com/yiwen26/NLP_chatbot/blob/master/graph/chatbot%20demo4.png)
 
