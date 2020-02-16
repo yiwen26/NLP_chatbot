@@ -3,6 +3,7 @@
 
 ## Background
 A chatbot is a piece of software that conducts a conversation via auditory or textual methods. Chatbots are typically used in dialog systems for various practical purposes including customer service or information acquisition.   
+Chatbot framework can be divided into four areas according to two dimensions, responses and conversations. Responses include retrieval-based and generative-based. Conversations include open domain and close domain.
 
 ## Type of chatbot
 There are three types of chatbot: QA, Dialogue System, General chatbot.  
@@ -19,5 +20,7 @@ Dialogue system contains NLU, DM and NLG.
 This kind of chatbot is used in open field chat scenario, just as chat between friends without the limitation of topics or contents.    
 General chatbots are usually based on seq2seq architecture, using models to generate answers automatically and optimizing them by combining technologies such as Attention.  
 ## Motivations
-
+- Market: People regard insurance as necessity. Insurance market is expanding.
+- Customer: Not every customer or potential customer is assigned with a customer manager. Chatbot will help solve their problem.
+- Company: Chatbot will free manpower and increase working efficiency.
 
