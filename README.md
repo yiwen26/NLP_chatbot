@@ -23,4 +23,9 @@ General chatbots are usually based on seq2seq architecture, using models to gene
 - Market: People regard insurance as necessity. Insurance market is expanding.
 - Customer: Not every customer or potential customer is assigned with a customer manager. Chatbot will help solve their problem.
 - Company: Chatbot will free manpower and increase working efficiency.
-
+## Aproach
+#### QA System
+- BiLSTM
+- Attention Model
+#### General Chatbot
+- Seq2Seq
